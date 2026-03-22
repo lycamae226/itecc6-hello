@@ -16,8 +16,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div style="padding: 20px; font-family: sans-serif;">
+  <div>
     <h1>Aking Supabase Posts</h1>
+    <!-- Pangalawang commit ko ito -->
     <ul>
       <li v-for="post in posts" :key="post.id">
         {{ post.title }}
