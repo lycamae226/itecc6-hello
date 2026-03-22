@@ -17,7 +17,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <h1>Aking Supabase Posts</h1>
+    <h1>Aking Supabase Posts Final</h1>
     <!-- Pangalawang commit ko ito -->
     <ul>
       <li v-for="post in posts" :key="post.id">
